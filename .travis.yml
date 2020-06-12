@@ -11,4 +11,4 @@ addons:
 
 script:
 - ant build
-- sonar-scanner -Dsoanr.projectKey=piercirocaliandro_JavaFXCalculator -Dsonar.login=$SONAR_TOKEN
+- sonar-scanner -Dsonar.login=$SONAR_TOKEN
