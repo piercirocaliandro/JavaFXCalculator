@@ -5,7 +5,7 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: "pierciro"
+    organization: "piercirocaliandro"
   token:
       secure: $SONAR_TOKEN
 
