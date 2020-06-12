@@ -1,0 +1,14 @@
+dist: trusty
+language: java
+jdk:
+- openjdk11
+
+addons:
+  sonarcloud:
+    organization: "pierciro"
+    token:
+      secure: $SONAR_TOKEN
+
+script:
+- ant build
+- sonar-scanner -Dsonar.login=$SONAR_TOKEN
