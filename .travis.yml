@@ -7,8 +7,8 @@ addons:
   sonarcloud:
     organization: "pierciro"
     token:
-      secure: $SONAR_TOKEN
+      secure: SONAR_TOKEN
 
 script:
 - ant build
-- sonar-scanner -Dsonar.login=$SONAR_TOKEN
+- sonar-scanner -Dsonar.login=SONAR_TOKEN
